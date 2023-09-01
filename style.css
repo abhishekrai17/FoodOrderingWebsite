@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(240, 239, 238);
+  
+}
+#navbar{
+     display: flex;
+     align-items: center;
+     position: relative;
+}
+#logo{
+    margin: 6px 41px;
+}
+
+#logo img{
+    margin: 2px -35px;
+    height: 48px;
+    width: 71px;
+}
+#navbar ul{
+    display:flex;
+    list-style:none;
+}
+#navbar::before{
+    content:"";
+    background-color: blueviolet;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+ }
+#navbar  ul li{
+    font-size:1.3rem;
+    list-style: none;
+}
+#navbar  ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius:20px;
+    text-decoration: none;
+}
+#navbar  ul li a:hover{
+    color:white;
+    background-color: brown;
+    
+}
+#home{
+    display:flex;
+    flex-direction: column;
+padding: 3px 200px;
+margin: 14px;
+height: 400px;
+justify-content: center;
+align-items: center;
+}
+#home::before{
+    content:"";
+    background:url('food.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 93%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.0;
+}
+#home h1{
+text-align: center;
+padding: 4px 5px;
+font-size: 3.2rem;
+}
+#home p{
+text-align: center;
+padding: 12px 13px;
+font-size: 1.9rem;
+}
+.btn{
+    border: 2px solid rebeccapurple;
+color: red;
+height: 56px;
+    width: 154px;
+    margin: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: yellowgreen;
+}
+#Services{
+    
+    margin: auto;
+    /* display: flex; */
+    
+}
+.ser{
+    display: flex;
+    margin: -1px;
+    padding: 1px
+}
+
+.h-primarycentre{
+    color: black;
+font-size: 2.8rem;
+padding: 23px;
+text-align: center;
+margin:  70px auto;
+
+}
+.h-secondarycentre{
+    color: black;
+    font-size: 2.6rem;
+    text-align: center;
+    padding: 12px;
+}
+
+.box{
+    border: 2px solid red;
+    background-color: rgb(172, 117, 117);
+    width: 32%;
+    margin: 4px;
+    border-radius: 23px;
+    }
+.box img{
+    height: 104px;
+    display: block;
+    margin: 23px auto;
+    width: 219px;
+}
+.box p{
+    color: black;
+    text-align: center;
+    padding: 13px;
+}
+#clients{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-primarycentre1{
+    color: black;
+    font-size: 2.8rem;
+    padding: 23px;
+    text-align: center;
+    margin:  15px auto;
+}
+
+
+#clientssection{
+    position: relative;
+    margin: 10px auto;
+}
+.classitem img{
+    height: 500px;
+    width: 400px;
+    margin: 10px;
+}
+#ContactUs{
+    position: relative;
+    margin: -28px auto;
+}
+.h-primarycentre2{
+    color: black;
+    font-size: 2.8rem;
+    padding: 23px;
+    text-align: center;
+    margin:  15px auto;
+}
+#ContactUs::before{
+    content:"";
+    background:url('delivery.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    margin: 79px auto;
+}
+#contact-box{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border: 2px solid green;
+    width:500px;
+    margin: auto;
+    text-align: center;
+
+}
+#contact-box input,
+#contact-box textarea{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 5px auto;
+}
+footer{
+    position: relative;
+    background-color: blue;
+    margin:auto; 
+    width: 100%;
+    margin-top: 146px;
+    text-align: center;
+}
